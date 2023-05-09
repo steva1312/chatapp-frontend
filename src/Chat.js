@@ -14,7 +14,7 @@ function Chat({ username }) {
   const inputImageRef = useRef()
 
   useEffect(() => {
-    socket = io.connect('http://localhost:3001')
+    socket = io.connect('https://one312dopisivanje.onrender.com/')
 
     socket.on('user-joined', user => {
       setActiveUsers(prevActiveUsers => [...prevActiveUsers, user])

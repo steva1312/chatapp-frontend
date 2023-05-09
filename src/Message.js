@@ -9,7 +9,7 @@ function Message({ message: { message, user, img } }) {
         </p>
       ) : null}
 
-      {img ? <img src={'http://localhost:3001/images/' + img} width='500' /> : <p>{message}</p>}
+      {img ? <img src={'https://one312dopisivanje.onrender.com/images/' + img} width='500' /> : <p>{message}</p>}
     </div>
   )
 }
